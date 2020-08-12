@@ -1,6 +1,5 @@
 import { Controller, Get, Post, Body, Param, Delete, Put } from '@nestjs/common';
 import { ProdutosService } from './produtos.service';
-import { get } from 'http';
 
 //rota: /produtos
 @Controller('produtos')

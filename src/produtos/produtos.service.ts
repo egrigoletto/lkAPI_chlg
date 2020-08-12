@@ -2,7 +2,6 @@ import { Injectable, NotFoundException, InternalServerErrorException } from "@ne
 import { InjectModel } from "@nestjs/mongoose";
 import { Produto } from "./models/produtos.model";
 import { Model } from "mongoose";
-import { exception } from "console";
 
 @Injectable()
 export class ProdutosService {

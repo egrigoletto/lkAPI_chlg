@@ -8,9 +8,8 @@ import { MongooseModule } from '@nestjs/mongoose';
 //é obrigatória a importação deste módulo, para que o nest enxergue a rota na request
 // importa os métodos para mongoose
 @Module({
-  imports: [ ProdutosModule, NegociacaoModule,
-    MongooseModule.forRoot(
-    'mongodb+srv://userTeste2:teste@123@cluster0.5g9o4.gcp.mongodb.net/nestjs-teste?retryWrites=true&w=majority'
+  imports: [ ProdutosModule, MongooseModule.forRoot(
+    'mongodb+srv://userTeste2:banana@cluster0.5g9o4.gcp.mongodb.net/nestjs-teste?retryWrites=true&w=majority'
     ),
   ],
   controllers: [AppController],
